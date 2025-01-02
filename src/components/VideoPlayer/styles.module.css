@@ -4,13 +4,13 @@
 }
 
 .wrapper {
-
+    position: relative;
 }
 
 .player {
-    width: 62px;
-    height: 62px;
     background-color: transparent;
+    width: 62px;
+    height: 62px;    
     background-image: url(/src/assets/play.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -19,4 +19,22 @@
     border: 0;
     inset: 0;
     margin: auto;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.actions {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}
+
+.action {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
