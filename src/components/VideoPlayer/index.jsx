@@ -2,8 +2,9 @@ import { useEffect, useRef, useState } from 'react'
 import styles from './styles.module.css'
 import clsx from 'clsx'
 import VideoPlayerActions from './VideoPlayerActions'
+import VideoDescription from '../VideoDescription'
 
-export default function VideoPlayer({src}){
+export default function VideoPlayer({albumCover, autor, description, src, songTitle}){
     const [playing, setPlaying] = useState(false)
     const video = useRef(null)
 
@@ -38,6 +39,12 @@ export default function VideoPlayer({src}){
          />
          <i className={playerClassName} onClick={handlePlay}/>
          <VideoPlayerActions/>
+         <VideoDescription         
+         autor={autor}
+         albumCover={albumCover}
+         description={description}
+         songTitle={songTitle}
+         />
         </div>
         
     )
