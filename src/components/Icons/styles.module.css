@@ -1,0 +1,9 @@
+.musicIcon {
+    background-image: url(/src/assets/MusicIcon.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 13px 13px;
+    width: 15px;
+    height: 15px;
+    padding-right: 15px;
+}
