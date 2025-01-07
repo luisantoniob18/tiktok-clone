@@ -5,12 +5,12 @@ const VIDEOS = [
     {
     id: 1,
     autor: 'luiz907',
-    description: 'atardecer',
+    description: 'Atardecer en Totonicapan',
     likes: 123,
     shares: 234,
     comments: 456,
     songTitle: 'I Want to Break Free, Queen',
-    albumCover: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/a615ef82b4130bc7bd6ff6a74d3044d9~c5_100x100.jpeg?lk3s=a5d48078&nonce=29337&refresh_token=d9912d3f6eca239cfa4481e2d8fbf00e&x-expires=1735927200&x-signature=vHoD1opFDvusv7FbPsfuPBp5DcU%3D&shp=a5d48078&shcp=81f88b70',
+    albumCover: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/3449ae07e0c66d3c5b14ed589482bcd4~c5_100x100.jpeg?lk3s=a5d48078&nonce=49499&refresh_token=8b2b05958f9a315504b165239b5c8cac&x-expires=1736128800&x-signature=CVBfurOP0yXUGpEg88DwZo84jAY%3D&shp=a5d48078&shcp=b59d6b55&quot',
     src: 'https://videos.pexels.com/video-files/2887458/2887458-hd_1920_1080_25fps.mp4'
 },
 {
@@ -21,8 +21,19 @@ const VIDEOS = [
     shares: 234,
     comments: 456,
     songTitle: 'I Want to Break Free, Queen',
-    albumCover: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/a615ef82b4130bc7bd6ff6a74d3044d9~c5_100x100.jpeg?lk3s=a5d48078&nonce=29337&refresh_token=d9912d3f6eca239cfa4481e2d8fbf00e&x-expires=1735927200&x-signature=vHoD1opFDvusv7FbPsfuPBp5DcU%3D&shp=a5d48078&shcp=81f88b70',
+    albumCover: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/3449ae07e0c66d3c5b14ed589482bcd4~c5_100x100.jpeg?lk3s=a5d48078&nonce=49499&refresh_token=8b2b05958f9a315504b165239b5c8cac&x-expires=1736128800&x-signature=CVBfurOP0yXUGpEg88DwZo84jAY%3D&shp=a5d48078&shcp=b59d6b55&quot',
     src: 'https://videos.pexels.com/video-files/8898141/8898141-sd_640_360_30fps.mp4'
+}, 
+{
+    id: 3,
+    autor: 'antonio97',
+    description: 'anochecer',
+    likes: 234,
+    shares: 234,
+    comments: 456,
+    songTitle: 'I Want to Break Free, Queen',
+    albumCover: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/3449ae07e0c66d3c5b14ed589482bcd4~c5_100x100.jpeg?lk3s=a5d48078&nonce=49499&refresh_token=8b2b05958f9a315504b165239b5c8cac&x-expires=1736128800&x-signature=CVBfurOP0yXUGpEg88DwZo84jAY%3D&shp=a5d48078&shcp=b59d6b55&quot',
+    src: 'https://videos.pexels.com/video-files/18016084/18016084-sd_640_360_30fps.mp4'
 }]
 
 export default function FeedVideos(){
