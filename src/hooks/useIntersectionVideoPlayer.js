@@ -15,12 +15,8 @@ const options = {
       })
   }, options)
 
-  let prevHandlePlay = null
-
   export default function useIntersectionVideoPlayer ({video}) {
     const [playing, setPlaying] = useState(false)
-    
-    console.log('useIntersectionVideoPlayer')
 
     useEffect(() => {
             if(!video.current) return 
