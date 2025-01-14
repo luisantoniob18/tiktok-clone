@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import VideoPlayer from './components/VideoPlayer'
 import FeedVideos from './components/FeedVideos/index.jsx'
+import { Route } from 'wouter'
+import Upload from './pages/Upload/index.jsx'
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -11,7 +13,13 @@ function App() {
   return (
     <div className='App'>
       <main>
-        <FeedVideos />
+        <Route path='/'>
+          <FeedVideos/>
+        </Route>
+        
+        <Route path='/upload'>
+          <Upload/>
+        </Route>
       </main>      
     </div>
   )
